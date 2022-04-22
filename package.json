@@ -1,0 +1,27 @@
+{
+  "name": "yt-audio-downloader-cli",
+  "version": "1.0.0",
+  "description": "A CLI to download music from youtube",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "ymd": "bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IgorBayerl/yt-audio-downloader-cli.git"
+  },
+  "author": "IgorBayerl",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IgorBayerl/yt-audio-downloader-cli/issues"
+  },
+  "homepage": "https://github.com/IgorBayerl/yt-audio-downloader-cli#readme",
+  "dependencies": {
+    "commander": "^9.2.0",
+    "youtube-mp3-downloader": "^0.7.10"
+  }
+}
