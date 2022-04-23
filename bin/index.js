@@ -1,7 +1,6 @@
 #!/usr/bin/env node
-
 import { Command } from 'commander';
-import posts from "./commands/posts.js";
+import { posts, dlMusic } from "./commands/commands.js";
 
 const program = new Command();
 
